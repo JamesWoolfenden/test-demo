@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 env:
   terraform: 0.14.8
   tf_target_dir: .
